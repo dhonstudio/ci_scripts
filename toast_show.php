@@ -1,5 +1,6 @@
 <script>
   $(document).ready(function(){
-    $('.toast').toast('show');
+    var id = '<?= $toast_id ?>'
+    $('#' + id).toast('show');
   });
 </script>
